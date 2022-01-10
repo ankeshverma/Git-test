@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Intercept_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Intercept Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Will Call</fullName>
+                <default>false</default>
+                <label>Will Call</label>
+            </value>
+            <value>
+                <fullName>SDWC</fullName>
+                <default>false</default>
+                <label>SDWC</label>
+            </value>
+            <value>
+                <fullName>Future Delivery</fullName>
+                <default>false</default>
+                <label>Future Delivery</label>
+            </value>
+            <value>
+                <fullName>Alternate Address</fullName>
+                <default>false</default>
+                <label>Alternate Address</label>
+            </value>
+            <value>
+                <fullName>Return to Shipper</fullName>
+                <default>false</default>
+                <label>Return to Shipper</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

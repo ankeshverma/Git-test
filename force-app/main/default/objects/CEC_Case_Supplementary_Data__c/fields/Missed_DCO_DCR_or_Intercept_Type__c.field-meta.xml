@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Missed_DCO_DCR_or_Intercept_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Missed DCO/DCR or Intercept Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hold at UPS Location (UPS Customer Center)</fullName>
+                <default>false</default>
+                <label>Hold at UPS Location (UPS Customer Center)</label>
+            </value>
+            <value>
+                <fullName>Hold at UPS Location (UPS Access Point)</fullName>
+                <default>false</default>
+                <label>Hold at UPS Location (UPS Access Point)</label>
+            </value>
+            <value>
+                <fullName>Change Delivery Address</fullName>
+                <default>false</default>
+                <label>Change Delivery Address</label>
+            </value>
+            <value>
+                <fullName>Change Delivery Date</fullName>
+                <default>false</default>
+                <label>Change Delivery Date</label>
+            </value>
+            <value>
+                <fullName>Redeliver to My Address</fullName>
+                <default>false</default>
+                <label>Redeliver to My Address</label>
+            </value>
+            <value>
+                <fullName>Return to Sender</fullName>
+                <default>false</default>
+                <label>Return to Sender</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

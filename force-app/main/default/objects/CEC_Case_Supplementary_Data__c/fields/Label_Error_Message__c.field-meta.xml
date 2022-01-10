@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Label_Error_Message__c</fullName>
+    <externalId>false</externalId>
+    <label>Label Error Message</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Supply order can&apos;t be processed for this account - please call 1-888-XXX- XXXX</fullName>
+                <default>false</default>
+                <label>Supply order can&apos;t be processed for this account - please call 1-888-XXX- XXXX</label>
+            </value>
+            <value>
+                <fullName>Not available for shipper</fullName>
+                <default>false</default>
+                <label>Not available for shipper</label>
+            </value>
+            <value>
+                <fullName>Shipper not allowed to order any items</fullName>
+                <default>false</default>
+                <label>Shipper not allowed to order any items</label>
+            </value>
+            <value>
+                <fullName>This item not available for shipper</fullName>
+                <default>false</default>
+                <label>This item not available for shipper</label>
+            </value>
+            <value>
+                <fullName>Items in this group are not available for shipper</fullName>
+                <default>false</default>
+                <label>Items in this group are not available for shipper</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

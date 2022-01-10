@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investigation_Inquiry_Type_ASIA__c</fullName>
+    <externalId>false</externalId>
+    <label>Investigation Inquiry Type (ASIA)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Additional Info for Investigation</fullName>
+                <default>false</default>
+                <label>Additional Info for Investigation</label>
+            </value>
+            <value>
+                <fullName>Acknowledge Received / Cancel Investigation</fullName>
+                <default>false</default>
+                <label>Acknowledge Received / Cancel Investigation</label>
+            </value>
+            <value>
+                <fullName>Investigation Status Inquiry</fullName>
+                <default>false</default>
+                <label>Investigation Status Inquiry</label>
+            </value>
+            <value>
+                <fullName>No Shipper Contact - Investigation Pass 8 days</fullName>
+                <default>false</default>
+                <label>No Shipper Contact - Investigation Pass 8 days</label>
+            </value>
+            <value>
+                <fullName>Re-open Closed Positive Investigation</fullName>
+                <default>false</default>
+                <label>Re-open Closed Positive Investigation</label>
+            </value>
+            <value>
+                <fullName>Security Hold - Need Return</fullName>
+                <default>false</default>
+                <label>Security Hold - Need Return</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

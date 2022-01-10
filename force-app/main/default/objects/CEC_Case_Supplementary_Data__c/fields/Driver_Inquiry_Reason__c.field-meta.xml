@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Driver_Inquiry_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Driver Inquiry Reason</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Driver did not leave a copy waybill</fullName>
+                <default>false</default>
+                <label>Driver did not leave a copy waybill</label>
+            </value>
+            <value>
+                <fullName>Driver filled out the waybill incorrectly</fullName>
+                <default>false</default>
+                <label>Driver filled out the waybill incorrectly</label>
+            </value>
+            <value>
+                <fullName>Missing / incomplete Export documentation</fullName>
+                <default>false</default>
+                <label>Missing / incomplete Export documentation</label>
+            </value>
+            <value>
+                <fullName>Driver came too early/late</fullName>
+                <default>false</default>
+                <label>Driver came too early/late</label>
+            </value>
+            <value>
+                <fullName>Customer disputes the pickup attempt</fullName>
+                <default>false</default>
+                <label>Customer disputes the pickup attempt</label>
+            </value>
+            <value>
+                <fullName>Missing Tax ID # on Waybill</fullName>
+                <default>false</default>
+                <label>Missing Tax ID # on Waybill</label>
+            </value>
+            <value>
+                <fullName>Cash Receipt issue</fullName>
+                <default>false</default>
+                <label>Cash Receipt issue</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

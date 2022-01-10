@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IVP_GSR_Error_Message__c</fullName>
+    <externalId>false</externalId>
+    <label>IVP GSR Error Message</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IVP/eTT</fullName>
+                <default>false</default>
+                <label>IVP/eTT</label>
+            </value>
+            <value>
+                <fullName>IVP/eTT for UPS Store GSR</fullName>
+                <default>false</default>
+                <label>IVP/eTT for UPS Store GSR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDWC_Not_Processed_Complete__c</fullName>
+    <externalId>false</externalId>
+    <label>SDWC Not Processed/Complete</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SDWC DCR Shows Complete</fullName>
+                <default>false</default>
+                <label>SDWC DCR Shows Complete</label>
+            </value>
+            <value>
+                <fullName>SDWC Hours Not Listed in Remarks</fullName>
+                <default>false</default>
+                <label>SDWC Hours Not Listed in Remarks</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

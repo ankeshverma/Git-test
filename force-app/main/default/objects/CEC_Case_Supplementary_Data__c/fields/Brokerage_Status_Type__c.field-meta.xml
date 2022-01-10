@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brokerage_Status_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Brokerage Status Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AMPS penalty due to UPS error</fullName>
+                <default>false</default>
+                <label>AMPS penalty due to UPS error</label>
+            </value>
+            <value>
+                <fullName>B3 Request</fullName>
+                <default>false</default>
+                <label>B3 Request</label>
+            </value>
+            <value>
+                <fullName>SNCD Discount not in ISPS (F4-F6)</fullName>
+                <default>false</default>
+                <label>SNCD Discount not in ISPS (F4-F6)</label>
+            </value>
+            <value>
+                <fullName>LVS Shipment Rating Request</fullName>
+                <default>false</default>
+                <label>LVS Shipment Rating Request</label>
+            </value>
+            <value>
+                <fullName>B2 Status Request- Shipment not in ISPS</fullName>
+                <default>false</default>
+                <label>B2 Status Request- Shipment not in ISPS</label>
+            </value>
+            <value>
+                <fullName>OMD Messge Left - No Call Back</fullName>
+                <default>false</default>
+                <label>OMD Messge Left - No Call Back</label>
+            </value>
+            <value>
+                <fullName>CBSA issued a duty refund cheque to customer in error</fullName>
+                <default>false</default>
+                <label>CBSA issued a duty refund cheque to customer in error</label>
+            </value>
+            <value>
+                <fullName>Status Call - Incorrect or No Shipmetn ID left</fullName>
+                <default>false</default>
+                <label>Status Call - Incorrect or No Shipmetn ID left</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

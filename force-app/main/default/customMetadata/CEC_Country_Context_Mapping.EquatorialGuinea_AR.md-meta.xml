@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Equatorial Guinea AR</label>
+    <protected>false</protected>
+    <values>
+        <field>CEC_City__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>CEC_Context__c</field>
+        <value xsi:type="xsd:string">Assistance Required</value>
+    </values>
+    <values>
+        <field>CEC_Country_Mapping__c</field>
+        <value xsi:type="xsd:string">EquatorialGuinea</value>
+    </values>
+    <values>
+        <field>CEC_PostalCode__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>CEC_State__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>CEC_Street__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+</CustomMetadata>

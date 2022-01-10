@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Address_Correction_Error_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Address Correction Error Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Address Correction Error Caused Mis-Delivery</fullName>
+                <default>false</default>
+                <label>Address Correction Error Caused Mis-Delivery</label>
+            </value>
+            <value>
+                <fullName>Address Correction will cause a Mis-Delivery</fullName>
+                <default>false</default>
+                <label>Address Correction will cause a Mis-Delivery</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,39 @@
+:host{
+    width:100%;
+    display:block;
+    --lwc-varSpacingVerticalSmall: 0;
+    padding-top: 0.25rem;
+    /* border: var(--lwc-borderWidthThin,1px) solid #fff1b9; */
+    border-radius: var(--lwc-borderRadiusMedium,0.25rem);
+    background: #fff9e1;
+    position: relative;
+}
+
+.has-warning{    
+    min-height: 15rem;
+}
+
+.optional-new-address{
+    background: rgb(255, 249, 225);
+    display: block;
+    width: 100%;
+    background: rgb(255, 249, 225);
+}
+c-cec-address{
+    --lwc-spacingXSmall: 0.25rem;
+}
+
+
+.radio{
+    margin-bottom: 1rem;
+}
+.slds-radio__label{
+    font-weight: bold;
+}
+.slds-form-element_readonly{
+    border-bottom:0
+}
+
+.forceStyle .slds-is-editing .slds-form-element, .forceStyle .slds-is-editing .form-element__group {
+    margin-bottom: 0;
+}

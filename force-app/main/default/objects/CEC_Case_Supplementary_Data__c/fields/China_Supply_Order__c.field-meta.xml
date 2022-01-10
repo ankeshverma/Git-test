@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>China_Supply_Order__c</fullName>
+    <externalId>false</externalId>
+    <label>China Supply Order</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Label (Fragile and Handle with Care)</fullName>
+                <default>false</default>
+                <label>Label (Fragile and Handle with Care)</label>
+            </value>
+            <value>
+                <fullName>UPS 10 KG Box (42*34*27)</fullName>
+                <default>false</default>
+                <label>UPS 10 KG Box (42*34*27)</label>
+            </value>
+            <value>
+                <fullName>UPS 25 KG Box (50*45*34)</fullName>
+                <default>false</default>
+                <label>UPS 25 KG Box (50*45*34)</label>
+            </value>
+            <value>
+                <fullName>AWB (Blank)</fullName>
+                <default>false</default>
+                <label>AWB (Blank)</label>
+            </value>
+            <value>
+                <fullName>UPS Envelope</fullName>
+                <default>false</default>
+                <label>UPS Envelope</label>
+            </value>
+            <value>
+                <fullName>UPS Pak - Small (323mm x 403mm x 55mm)</fullName>
+                <default>false</default>
+                <label>UPS Pak - Small (323mm x 403mm x 55mm)</label>
+            </value>
+            <value>
+                <fullName>UPS Pak - Large (420mm x 540mm x 45mm)</fullName>
+                <default>false</default>
+                <label>UPS Pak - Large (420mm x 540mm x 45mm)</label>
+            </value>
+            <value>
+                <fullName>Invoice Pouch</fullName>
+                <default>false</default>
+                <label>Invoice Pouch</label>
+            </value>
+            <value>
+                <fullName>Box#1 (270*170*170)</fullName>
+                <default>false</default>
+                <label>Box#1 (270*170*170)</label>
+            </value>
+            <value>
+                <fullName>Box#2 (320*230*225)</fullName>
+                <default>false</default>
+                <label>Box#2 (320*230*225)</label>
+            </value>
+            <value>
+                <fullName>Box#3 (400*300*200)</fullName>
+                <default>false</default>
+                <label>Box#3 (400*300*200)</label>
+            </value>
+            <value>
+                <fullName>Box#4 (460*330*200)</fullName>
+                <default>false</default>
+                <label>Box#4 (460*330*200)</label>
+            </value>
+            <value>
+                <fullName>Box#5 (350*350*370)</fullName>
+                <default>false</default>
+                <label>Box#5 (350*350*370)</label>
+            </value>
+            <value>
+                <fullName>Box#6 (500*350*350)</fullName>
+                <default>false</default>
+                <label>Box#6 (500*350*350)</label>
+            </value>
+            <value>
+                <fullName>Box#7 (550*450*300)</fullName>
+                <default>false</default>
+                <label>Box#7 (550*450*300)</label>
+            </value>
+            <value>
+                <fullName>Box#8 (650*450*310)</fullName>
+                <default>false</default>
+                <label>Box#8 (650*450*310)</label>
+            </value>
+            <value>
+                <fullName>Box#9 (540*500*420)</fullName>
+                <default>false</default>
+                <label>Box#9 (540*500*420)</label>
+            </value>
+            <value>
+                <fullName>Box#10 (600*450*450)</fullName>
+                <default>false</default>
+                <label>Box#10 (600*450*450)</label>
+            </value>
+            <value>
+                <fullName>Box#11 (650*610*380)</fullName>
+                <default>false</default>
+                <label>Box#11 (650*610*380)</label>
+            </value>
+            <value>
+                <fullName>Label (4 inch *6 inch)</fullName>
+                <default>false</default>
+                <label>Label (4 inch *6 inch)</label>
+            </value>
+            <value>
+                <fullName>Label (4 inch *8 inch)</fullName>
+                <default>false</default>
+                <label>Label (4 inch *8 inch)</label>
+            </value>
+            <value>
+                <fullName>Label (4 inch * 11 inch) World Ease Label</fullName>
+                <default>false</default>
+                <label>Label (4 inch * 11 inch) World Ease Label</label>
+            </value>
+            <value>
+                <fullName>Express Box (44.5*31.8*7.6)</fullName>
+                <default>false</default>
+                <label>Express Box (44.5*31.8*7.6)</label>
+            </value>
+            <value>
+                <fullName>World Ease Box</fullName>
+                <default>false</default>
+                <label>World Ease Box</label>
+            </value>
+            <value>
+                <fullName>UPS Tube</fullName>
+                <default>false</default>
+                <label>UPS Tube</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

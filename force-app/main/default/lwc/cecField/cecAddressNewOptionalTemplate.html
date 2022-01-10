@@ -1,0 +1,146 @@
+<template>
+    
+    
+
+        <template if:false={field.readonly}>
+            <c-cec-message
+                    type="modal"
+                    class="message slds-hide"
+                    variant="info"
+                    icon-name="utility:info"
+                    label={addressNewOptionalLabel.CEC_UI_Data_LOSS_WARNING}
+                >
+                    <lightning-button
+                    slot="actions"
+                    variant="neutral"
+                    label={addressNewOptionalLabel.CEC_Button_Cancel}
+                    title={addressNewOptionalLabel.CEC_Button_Cancel}
+                    onclick={hadlePromptCancel}
+                    class="slds-col_bump-right slds-m-right_small"
+                    >
+                    </lightning-button>
+                    <lightning-button
+                    slot="actions"
+                    variant="brand"
+                    label={addressNewOptionalLabel.CEC_Button_ok}
+                    title={addressNewOptionalLabel.CEC_Button_ok}
+                    onclick={hadlePromptOk}
+                    >
+                    </lightning-button>
+                </c-cec-message>
+            <div class="slds-container_fluid optional-new-address">
+                <div
+                    class="slds-form-element slds-form-element_stacked slds-is-editing slds-p-horizontal_x-small">
+                    <span class="slds-form-element__label">{addressNewOptionalLabel.CEC_Incident_Location_Date_Time}</span>
+                    <template if:false={controlledByAttirbute.isReOpen}>
+                        <div class="slds-form-element__control">
+                            <div class="slds-form-element__static">
+                                <lightning-layout multiple-rows class="addresses">
+                                    <lightning-layout-item size=6 class="slds-m-bottom-small">
+                                        <span class="slds-radio radio">
+                                            <input type="radio" checked={controlledByAttirbute.value.address1}
+                                                name={field.controlledBy.name}>
+                                            <label class="slds-radio__label">
+                                                <span class="slds-radio_faux" data-action={field.controlledBy.action}
+                                                    data-optional="address1" onclick={handleControlledBy}></span>
+                                                <span class="slds-form-element__label">{addressNewOptionalLabel.CEC_Same_as_Caller_Location}</span>
+                                            </label>
+                                        </span>
+                                        <lightning-layout>
+                                            <lightning-layout-item flexibility="auto, no-grow">
+                                                <lightning-icon size="small" icon-name="utility:checkin"></lightning-icon>
+                                            </lightning-layout-item>
+                                            <lightning-layout-item flexibility="auto, no-grow" size="11" padding="horizontal-small">
+                                                
+                                                <lightning-formatted-address street={controlledByAttirbute.option1.street}
+                                                    city={controlledByAttirbute.option1.city}
+                                                    country={controlledByValueOptional1Country}
+                                                    province={controlledByAttirbute.option1.province}
+                                                    postal-code={controlledByAttirbute.option1.postalCode}>
+                                                </lightning-formatted-address>
+                                            </lightning-layout-item>
+                                        </lightning-layout>
+                                        
+                                    </lightning-layout-item>
+                                    <lightning-layout-item size=6>
+                                        <span class="slds-radio">
+                                            <input type="radio" checked={controlledByAttirbute.value.address2}
+                                                name={field.controlledBy.name}>
+                                            <label class="slds-radio__label">
+                                                <span class="slds-radio_faux" data-action={field.controlledBy.action}
+                                                    data-optional="address2" onclick={handleControlledBy}></span>
+                                                <span class="slds-form-element__label">{addressNewOptionalLabel.CEC_Enter_a_Different_Address}</span>
+                                            </label>
+                                        </span>
+                                        <template if:true={controlledByAttirbute.value.address2}>
+											<div class="slds-checkbox">
+                                                        <input type="checkbox" name="options" id="checkbox-unique-id-73"  checked={isChecked}
+                                                        onchange={handleAddressCheckbox} />
+                                                        <label class="slds-checkbox__label" for="checkbox-unique-id-73">
+                                                          <span class="slds-checkbox_faux"></span>
+                                                          <span class="slds-form-element__label">{addressNewOptionalLabel.CEC_Copy_Current_Contact}</span>
+                                                        </label>
+                                            </div>
+                                            <c-cec-address required data-input variant='label-hidden'
+                                                street-label={label.CEC_Street_Number_LABEL} city-label={label.CEC_City_LABEL}
+                                                country-label={label.CEC_Country_LABEL} state-label={label.CEC_State_Province_LABEL}
+                                                postal-code-label={label.CEC_PostalCode_LABEL}
+                                                street={controlledByAttirbute.option2.street}
+                                                city={controlledByAttirbute.option2.city}
+                                                province={controlledByAttirbute.option2.state}
+                                                country={controlledByAttirbute.option2.country}
+                                                postal-code={controlledByAttirbute.option2.postalCode}
+                                                context="Assistance Required"
+                                                onchange={handleAddressChange}>
+                                            </c-cec-address>
+                                        </template>
+                                    </lightning-layout-item>
+                                </lightning-layout>
+                            </div>
+                        </div>
+                    </template>
+                    <template if:true={controlledByAttirbute.isReOpen}>
+                        <c-cec-address required data-input variant='label-hidden'
+                            street-label={label.CEC_Street_Number_LABEL} city-label={label.CEC_City_LABEL}
+                            country-label={label.CEC_Country_LABEL} state-label={label.CEC_State_Province_LABEL}
+                            postal-code-label={label.CEC_PostalCode_LABEL}
+                            street={controlledByAttirbute.option2.street}
+                            city={controlledByAttirbute.option2.city}
+                            province={controlledByAttirbute.option2.state}
+                            country={controlledByAttirbute.option2.country}
+                            postal-code={controlledByAttirbute.option2.postalCode}
+                            context="Assistance Required"
+                            onchange={handleAddressChange}>
+                        </c-cec-address>
+                    </template>
+                </div>
+            </div>
+
+        </template>
+        <template if:true={field.readonly}>
+
+            <div
+                class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-form-element_stacked slds-hint-parent slds-is-editing">
+                <span class="slds-form-element__label">Incident Location</span>
+                <div class="slds-form-element__control">
+                    <div class="slds-form-element__static">                        
+                        <lightning-layout>
+                            <lightning-layout-item flexibility="auto, no-grow">
+                                <lightning-icon size="small" icon-name="utility:checkin"></lightning-icon>
+                            </lightning-layout-item>
+                            <lightning-layout-item flexibility="auto, no-grow" size="11" padding="horizontal-small">
+                                <lightning-formatted-address street={field.value.street}
+                                    city={field.value.city}
+                                    country={field.value.country}
+                                    province={field.value.state}
+                                    postal-code={field.value.postalCode}>
+                                </lightning-formatted-address>
+                            </lightning-layout-item>
+                        </lightning-layout>
+                    </div>
+
+                </div>
+            </div>
+        </template>
+
+</template>

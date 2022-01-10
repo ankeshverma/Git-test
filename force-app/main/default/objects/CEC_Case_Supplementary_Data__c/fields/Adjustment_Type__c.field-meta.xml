@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adjustment_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Adjustment Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>08-Short Pay</fullName>
+                <default>false</default>
+                <label>08-Short Pay</label>
+            </value>
+            <value>
+                <fullName>18-Credit to the Account</fullName>
+                <default>false</default>
+                <label>18-Credit to the Account</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

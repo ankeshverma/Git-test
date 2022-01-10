@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brokerage_Case_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Brokerage Case Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Check Release Date</fullName>
+                <default>false</default>
+                <label>Check Release Date</label>
+            </value>
+            <value>
+                <fullName>Check Required Clearance Documents</fullName>
+                <default>false</default>
+                <label>Check Required Clearance Documents</label>
+            </value>
+            <value>
+                <fullName>Provide New Contact Phone Number</fullName>
+                <default>false</default>
+                <label>Provide New Contact Phone Number</label>
+            </value>
+            <value>
+                <fullName>Request Brokerage Partner to Callback</fullName>
+                <default>false</default>
+                <label>Request Brokerage Partner to Callback</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Information_for_Driver__c</fullName>
+    <externalId>false</externalId>
+    <label>Information for Driver</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Daily Account Resumed</fullName>
+                <default>false</default>
+                <label>Daily Account Resumed</label>
+            </value>
+            <value>
+                <fullName>Daily Pickup Temporary Time Change</fullName>
+                <default>false</default>
+                <label>Daily Pickup Temporary Time Change</label>
+            </value>
+            <value>
+                <fullName>Pickup Information</fullName>
+                <default>false</default>
+                <label>Pickup Information</label>
+            </value>
+            <value>
+                <fullName>Large Shipment</fullName>
+                <default>false</default>
+                <label>Large Shipment</label>
+            </value>
+            <value>
+                <fullName>Excess Supplies Retrieval</fullName>
+                <default>false</default>
+                <label>Excess Supplies Retrieval</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Application_Scenario__c</fullName>
+    <externalId>false</externalId>
+    <label>Payment Application Scenario</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Compliment/Complaint for Billing Personnel</fullName>
+                <default>false</default>
+                <label>Compliment/Complaint for Billing Personnel</label>
+            </value>
+            <value>
+                <fullName>Missed Pickup for pickup fee country</fullName>
+                <default>false</default>
+                <label>Missed Pickup for pickup fee country</label>
+            </value>
+            <value>
+                <fullName>Missed Pickup</fullName>
+                <default>false</default>
+                <label>Missed Pickup</label>
+            </value>
+            <value>
+                <fullName>Applied or Misapplied Payment</fullName>
+                <default>false</default>
+                <label>Applied or Misapplied Payment</label>
+            </value>
+            <value>
+                <fullName>Collection related</fullName>
+                <default>false</default>
+                <label>Collection related</label>
+            </value>
+            <value>
+                <fullName>CC &amp; other online payment inquiries</fullName>
+                <default>false</default>
+                <label>CC &amp; other online payment inquiries</label>
+            </value>
+            <value>
+                <fullName>COD Dispute scenarios</fullName>
+                <default>false</default>
+                <label>COD Dispute scenarios</label>
+            </value>
+            <value>
+                <fullName>GSR has not been payed after 2 billing cycles</fullName>
+                <default>false</default>
+                <label>GSR has not been payed after 2 billing cycles</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

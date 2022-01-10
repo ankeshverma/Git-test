@@ -1,0 +1,25 @@
+<template>
+    <template if:false={field.readonly}>
+        <c-ceclookup data-input
+            selection={field.value} 
+            onsearch={handleMultiSearch}
+            onselectionchange={handleSelectedchange}
+            label={field.label}
+            placeholder="Search Option..." 
+            required={field.required}
+            is-multi-entry
+            show-default-results="true">
+        </c-ceclookup>
+    </template>
+    <template if:true={showQauntity}>
+        <lightning-datatable 
+            key-field="id" 
+            data={data} 
+            hide-checkbox-column 
+            columns={columns}
+            show-row-number-column  
+            draft-values={draftValue} 
+            onsubmit={handleSaveEvent}>
+        </lightning-datatable>
+    </template>
+</template>

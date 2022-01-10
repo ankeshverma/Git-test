@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technology_Integration_Request__c</fullName>
+    <externalId>false</externalId>
+    <label>Technology Integration Request</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>WorldShip</fullName>
+                <default>false</default>
+                <label>WorldShip</label>
+            </value>
+            <value>
+                <fullName>CampusShip</fullName>
+                <default>false</default>
+                <label>CampusShip</label>
+            </value>
+            <value>
+                <fullName>Customer Technology Program</fullName>
+                <default>false</default>
+                <label>Customer Technology Program</label>
+            </value>
+            <value>
+                <fullName>Developer Kit (API)</fullName>
+                <default>false</default>
+                <label>Developer Kit (API)</label>
+            </value>
+            <value>
+                <fullName>Billing Center Services</fullName>
+                <default>false</default>
+                <label>Billing Center Services</label>
+            </value>
+            <value>
+                <fullName>Internet Shipping</fullName>
+                <default>false</default>
+                <label>Internet Shipping</label>
+            </value>
+            <value>
+                <fullName>Quantum View Services</fullName>
+                <default>false</default>
+                <label>Quantum View Services</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

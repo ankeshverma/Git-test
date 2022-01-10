@@ -1,0 +1,26 @@
+<template>
+    <template if:false={field.readonly}>
+        <c-cec-address required address-label={field.label.address} street-label={field.label.street}
+            city-label={field.label.city} country-label={field.label.country} state-label={field.label.state}
+            postal-code-label={field.label.postalCode} street={field.value.street} city={field.value.city}
+            province={field.value.province} country={field.value.country} postal-code={field.value.postalCode}
+            context="Assistance Required" 
+            onchange={handleAddressChange}>
+        </c-cec-address>
+    </template>
+    <template if:true={field.readonly}>
+        <div
+            class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-form-element_stacked slds-hint-parent slds-is-editing">
+            <span class="slds-form-element__label">{field.label.address}</span>
+            <div class="slds-form-element__control">
+                <div class="slds-form-element__static">
+                    <lightning-formatted-address street={field.value.street} city={field.value.city}
+                        country={field.value.country} province={field.value.province} postal-code={field.value.code}>
+                    </lightning-formatted-address>
+                </div>
+
+            </div>
+        </div>
+    </template>
+
+</template>

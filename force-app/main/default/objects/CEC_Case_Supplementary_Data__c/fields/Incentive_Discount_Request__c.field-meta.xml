@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Incentive_Discount_Request__c</fullName>
+    <externalId>false</externalId>
+    <label>Incentive Discount Request</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New incentives/discounts</fullName>
+                <default>false</default>
+                <label>New incentives/discounts</label>
+            </value>
+            <value>
+                <fullName>Renewal of expired incentives/discounts</fullName>
+                <default>false</default>
+                <label>Renewal of expired incentives/discounts</label>
+            </value>
+            <value>
+                <fullName>Goodwill Request for SCC</fullName>
+                <default>false</default>
+                <label>Goodwill Request for SCC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

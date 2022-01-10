@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>COD_ICOD_Dispute_Type_COD_Investigation__c</fullName>
+    <externalId>false</externalId>
+    <label>COD/ICOD Dispute Type/COD Investigation</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Import COD Invoice (paid by CC over the phone)</fullName>
+                <default>false</default>
+                <label>Import COD Invoice (paid by CC over the phone)</label>
+            </value>
+            <value>
+                <fullName>ICOD (Online Portal Payment Dispute)</fullName>
+                <default>false</default>
+                <label>ICOD (Online Portal Payment Dispute)</label>
+            </value>
+            <value>
+                <fullName>Import COD - Paid at time of delivery</fullName>
+                <default>false</default>
+                <label>Import COD - Paid at time of delivery</label>
+            </value>
+            <value>
+                <fullName>COD Investigation</fullName>
+                <default>false</default>
+                <label>COD Investigation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

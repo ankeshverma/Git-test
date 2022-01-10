@@ -1,0 +1,44 @@
+<template>
+    <template if:false={field.readonly}>
+        <div class="slds-container_fluid toggle-container">
+            <div
+                class="slds-form-element slds-form-element_edit slds-hint-parent">
+                <div
+                    class="slds-form-element__label">{field.label} 
+                    <lightning-helptext class="help-text-alignment" content={field.helpText}></lightning-helptext>
+
+                </div>
+                <div class="slds-form-element__control right-center">
+                    <lightning-input disabled={field.disabled}
+                    data-object-api-name={field.objectApiName} 
+                    data-field-api-name={field.Name} type="toggle" message-toggle-active="" message-toggle-inactive=""
+                    variant="label-hidden" checked={field.value} label={field.label} onchange={handleToggle}>
+                    </lightning-input>
+                </div>
+            </div>
+            
+        </div>
+    </template>
+    <template if:true={field.readonly}>
+        <slot name="output">
+            <div
+                class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-form-element_stacked slds-hint-parent slds-is-editing">
+                <span class="slds-form-element__label">{field.label}</span>
+                <div class="slds-form-element__control">
+                    <div class="slds-form-element__static .right-center">
+
+                        <lightning-input read-only disabled
+                        data-object-api-name={field.objectApiName} 
+                        data-field-api-name={field.Name} type="toggle"
+                        variant="label-hidden" label={field.label} onchange={handleToggle}
+                        message-toggle-active="" checked={field.value} message-toggle-inactive="">
+                        
+                        </lightning-input>
+                    </div>
+                    <!--lightning-button-icon icon-name="utility:edit" alternative-text={field.label}
+                        class="slds-m-left_xx-small" title={field.label}></lightning-button-icon-->
+                </div>
+            </div>
+        </slot>
+    </template>
+</template>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Explanation_and_Instruction__c</fullName>
+    <externalId>false</externalId>
+    <label>Explanation and Instruction</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Additional Directions for Delivery</fullName>
+                <default>false</default>
+                <label>Additional Directions for Delivery</label>
+            </value>
+            <value>
+                <fullName>Emergency Situation</fullName>
+                <default>false</default>
+                <label>Emergency Situation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

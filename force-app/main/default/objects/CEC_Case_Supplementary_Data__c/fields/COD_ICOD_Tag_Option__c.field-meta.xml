@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>COD_ICOD_Tag_Option__c</fullName>
+    <externalId>false</externalId>
+    <label>COD/ICOD Tag Option</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Credit Card Payment</fullName>
+                <default>false</default>
+                <label>Credit Card Payment</label>
+            </value>
+            <value>
+                <fullName>Goodwill</fullName>
+                <default>false</default>
+                <label>Goodwill</label>
+            </value>
+            <value>
+                <fullName>ICOD Prepaid via Online Portal</fullName>
+                <default>false</default>
+                <label>ICOD Prepaid via Online Portal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Guaranteed_Service_Refund_Scenarios__c</fullName>
+    <externalId>false</externalId>
+    <label>Guaranteed Service Refund Scenarios</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IVP GSR Error Message</fullName>
+                <default>false</default>
+                <label>IVP GSR Error Message</label>
+            </value>
+            <value>
+                <fullName>Refund not Received / Wrong Amount Received</fullName>
+                <default>false</default>
+                <label>Refund not Received / Wrong Amount Received</label>
+            </value>
+            <value>
+                <fullName>Brokerage GSR</fullName>
+                <default>false</default>
+                <label>Brokerage GSR</label>
+            </value>
+            <value>
+                <fullName>Import Freight Collect GSRs</fullName>
+                <default>false</default>
+                <label>Import Freight Collect GSRs</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Method_Used_ASIA__c</fullName>
+    <externalId>false</externalId>
+    <label>Payment Method Used (ASIA)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cash/Online Payment</fullName>
+                <default>false</default>
+                <label>Cash/Online Payment</label>
+            </value>
+            <value>
+                <fullName>Account</fullName>
+                <default>false</default>
+                <label>Account</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

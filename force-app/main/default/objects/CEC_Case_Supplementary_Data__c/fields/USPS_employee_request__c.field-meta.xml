@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>USPS_employee_request__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Use help text-USPS employee requests information about a delivery situation</description>
+    <externalId>false</externalId>
+    <label>USPS employee request?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

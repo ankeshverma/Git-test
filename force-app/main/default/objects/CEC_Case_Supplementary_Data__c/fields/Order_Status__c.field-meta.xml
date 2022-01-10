@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Order_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Order Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Status is Pending</fullName>
+                <default>false</default>
+                <label>Status is Pending</label>
+            </value>
+            <value>
+                <fullName>Order has been picked up by the driver</fullName>
+                <default>false</default>
+                <label>Order has been picked up by the driver</label>
+            </value>
+            <value>
+                <fullName>Order has been received at dispatch</fullName>
+                <default>false</default>
+                <label>Order has been received at dispatch</label>
+            </value>
+            <value>
+                <fullName>Order has been dispatched to the driver</fullName>
+                <default>false</default>
+                <label>Order has been dispatched to the driver</label>
+            </value>
+            <value>
+                <fullName>Order was not picked up by the driver</fullName>
+                <default>false</default>
+                <label>Order was not picked up by the driver</label>
+            </value>
+            <value>
+                <fullName>Cancelled Order</fullName>
+                <default>false</default>
+                <label>Cancelled Order</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

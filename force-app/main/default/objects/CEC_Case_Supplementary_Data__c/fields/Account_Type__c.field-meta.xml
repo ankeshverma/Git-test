@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Account Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Daily Pickup</fullName>
+                <default>false</default>
+                <label>Daily Pickup</label>
+            </value>
+            <value>
+                <fullName>On-Call Pickup</fullName>
+                <default>false</default>
+                <label>On-Call Pickup</label>
+            </value>
+            <value>
+                <fullName>Scheduled Pickup</fullName>
+                <default>false</default>
+                <label>Scheduled Pickup</label>
+            </value>
+            <value>
+                <fullName>Placard Pickup</fullName>
+                <default>false</default>
+                <label>Placard Pickup</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

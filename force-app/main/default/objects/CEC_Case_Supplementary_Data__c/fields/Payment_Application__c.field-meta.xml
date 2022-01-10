@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Application__c</fullName>
+    <externalId>false</externalId>
+    <label>Payment Application</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Payment Application Issues</fullName>
+                <default>false</default>
+                <label>Payment Application Issues</label>
+            </value>
+            <value>
+                <fullName>Payment Sent / Not Applied</fullName>
+                <default>false</default>
+                <label>Payment Sent / Not Applied</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

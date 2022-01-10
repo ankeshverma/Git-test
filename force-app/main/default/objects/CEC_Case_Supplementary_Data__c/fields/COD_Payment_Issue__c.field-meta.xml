@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>COD_Payment_Issue__c</fullName>
+    <externalId>false</externalId>
+    <label>COD Payment Issue</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>COD payment not returned 10 business days after delivery</fullName>
+                <default>false</default>
+                <label>COD payment not returned 10 business days after delivery</label>
+            </value>
+            <value>
+                <fullName>Wrong COD amount was collected and/or received</fullName>
+                <default>false</default>
+                <label>Wrong COD amount was collected and/or received</label>
+            </value>
+            <value>
+                <fullName>Wrong type of COD payemnt was received (regular check instead of certifed)</fullName>
+                <default>false</default>
+                <label>Wrong type of COD payemnt was received (regular check instead of certifed)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

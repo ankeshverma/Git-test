@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Inquiry_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Account Inquiry Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account updates/ changes</fullName>
+                <default>false</default>
+                <label>Account updates/ changes</label>
+            </value>
+            <value>
+                <fullName>Cancel Account</fullName>
+                <default>false</default>
+                <label>Cancel Account</label>
+            </value>
+            <value>
+                <fullName>Reactivate Cancelled Account</fullName>
+                <default>false</default>
+                <label>Reactivate Cancelled Account</label>
+            </value>
+            <value>
+                <fullName>Discount not Applied or Applied Incorrectly</fullName>
+                <default>false</default>
+                <label>Discount not Applied or Applied Incorrectly</label>
+            </value>
+            <value>
+                <fullName>UK Special Supplies</fullName>
+                <default>false</default>
+                <label>UK Special Supplies</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

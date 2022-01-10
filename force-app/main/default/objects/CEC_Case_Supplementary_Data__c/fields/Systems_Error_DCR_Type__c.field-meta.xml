@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Systems_Error_DCR_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Systems Error - DCR Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Redelivery to My Address</fullName>
+                <default>false</default>
+                <label>Redelivery to My Address</label>
+            </value>
+            <value>
+                <fullName>Alternate Address DCR</fullName>
+                <default>false</default>
+                <label>Alternate Address DCR</label>
+            </value>
+            <value>
+                <fullName>Stop Delivery - Return to Shipper</fullName>
+                <default>false</default>
+                <label>Stop Delivery - Return to Shipper</label>
+            </value>
+            <value>
+                <fullName>Hold for Pickup</fullName>
+                <default>false</default>
+                <label>Hold for Pickup</label>
+            </value>
+            <value>
+                <fullName>Deliver on Another Day</fullName>
+                <default>false</default>
+                <label>Deliver on Another Day</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

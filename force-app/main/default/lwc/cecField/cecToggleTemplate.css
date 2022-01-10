@@ -1,0 +1,28 @@
+:host{
+    width:100%;
+    display:block;    
+    padding: 0.5rem 0;
+}
+
+.slds-form-element_readonly{
+    border-bottom:0
+}
+.right-center{
+    display: flex;
+    align-items: center;
+    padding-right: var(--lwc-spacingXSmall,0.5rem);
+    padding-top: var(--lwc-spacingXxSmall,0.25rem);
+    margin-bottom: var(--lwc-spacingXxxSmall,0.125rem)
+
+}
+
+.help-text-alignment {
+    margin-top: -0.25rem;
+    position: absolute;
+    padding-left: 0.25rem;
+}
+
+.toggle-container:focus .toggle-container ,.toggle-container:hover .toggle-container {
+    border-color: var(--lwc-colorBorderInputActive,rgb(21, 137, 238));
+    box-shadow: var(--lwc-shadowButtonFocus,0 0 3px #0070D2);
+}

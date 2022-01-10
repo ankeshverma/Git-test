@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consign_to__c</fullName>
+    <externalId>false</externalId>
+    <label>Consign to?</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Broker</fullName>
+                <default>false</default>
+                <label>New Broker</label>
+            </value>
+            <value>
+                <fullName>Clears Own</fullName>
+                <default>false</default>
+                <label>Clears Own</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

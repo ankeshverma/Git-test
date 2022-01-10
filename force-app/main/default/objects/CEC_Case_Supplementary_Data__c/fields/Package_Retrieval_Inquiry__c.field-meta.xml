@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Package_Retrieval_Inquiry__c</fullName>
+    <externalId>false</externalId>
+    <label>Package Retrieval Inquiry</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2nd Reqest DCR</fullName>
+                <default>false</default>
+                <label>2nd Reqest DCR</label>
+            </value>
+            <value>
+                <fullName>Held Past 10 Days or 14 Days - No New Scans</fullName>
+                <default>false</default>
+                <label>Held Past 10 Days or 14 Days - No New Scans</label>
+            </value>
+            <value>
+                <fullName>Extend Hold Past 10 Days or 14 Days</fullName>
+                <default>false</default>
+                <label>Extend Hold Past 10 Days or 14 Days</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

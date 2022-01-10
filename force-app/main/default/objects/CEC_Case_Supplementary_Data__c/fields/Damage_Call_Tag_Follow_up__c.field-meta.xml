@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Damage_Call_Tag_Follow_up__c</fullName>
+    <externalId>false</externalId>
+    <label>Damage Call Tag Follow-up</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Transportable DCT No Pickup</fullName>
+                <default>false</default>
+                <label>Transportable DCT No Pickup</label>
+            </value>
+            <value>
+                <fullName>Transportable DCT Other</fullName>
+                <default>false</default>
+                <label>Transportable DCT Other</label>
+            </value>
+            <value>
+                <fullName>Non-Transportable DCT Issued - No Contact</fullName>
+                <default>false</default>
+                <label>Non-Transportable DCT Issued - No Contact</label>
+            </value>
+            <value>
+                <fullName>Cancel Transportable</fullName>
+                <default>false</default>
+                <label>Cancel Transportable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

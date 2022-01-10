@@ -1,0 +1,46 @@
+<template>
+    <template if:false={field.readonly}>
+        <span class="slds-grid slds-grid_vertical slds-size_12-of-12">
+            <c-cecphone 
+                data-input
+                class="slds-form-element slds-form-element_stacked slds-is-editing"
+                country={field.attribute.country}
+                name="contactPhone"
+                label={label.CEC_Primary_Phone}
+                value={field.value}
+                required={field.required}
+                onphoneformatted={handlePhoneFormatted}>
+            </c-cecphone>
+            <template if:true={field.controlledBy}>
+                <template if:true={field.controlledBy.visible}>
+                    <lightning-input type="checkbox"
+                        class="slds-is-editing"
+                        variant="label-stacked" 
+                        checked={field.controlledBy.attribute.checked}
+                        data-action={field.controlledBy.action}
+                        label={field.controlledBy.label}
+                        onchange={handleControlledBy}>
+                    </lightning-input>
+                </template>
+
+
+            </template>
+        </span>
+    </template>
+    <template if:true={field.readonly}>
+        <div
+            class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-form-element_stacked slds-hint-parent slds-is-editing">
+            <span class="slds-form-element__label">{field.label}</span>
+            <div class="slds-form-element__control">
+                <div class="slds-form-element__static">
+
+                    <lightning-formatted-text value={field.value}>
+                    </lightning-formatted-text>
+                </div>
+                <!-- <lightning-button-icon icon-name="utility:edit" alternative-text={field.label}
+                    class="slds-m-left_xx-small" title={field.label}></lightning-button-icon> -->
+            </div>
+        </div>
+
+    </template>
+</template>

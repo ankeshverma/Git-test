@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investigation_Inquiry_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Investigation Inquiry Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Change bill terms</fullName>
+                <default>false</default>
+                <label>Change bill terms</label>
+            </value>
+            <value>
+                <fullName>Add. Info for Open/Cancel Investi.</fullName>
+                <default>false</default>
+                <label>Add. Info for Open/Cancel Investi.</label>
+            </value>
+            <value>
+                <fullName>COD related issues</fullName>
+                <default>false</default>
+                <label>COD related issues</label>
+            </value>
+            <value>
+                <fullName>Delivered - Recipient Denies Receipt of Signature</fullName>
+                <default>false</default>
+                <label>Delivered - Recipient Denies Receipt of Signature</label>
+            </value>
+            <value>
+                <fullName>Driver Release - Consignee Denies Receipt</fullName>
+                <default>false</default>
+                <label>Driver Release - Consignee Denies Receipt</label>
+            </value>
+            <value>
+                <fullName>Export Investigation Status Inquiry</fullName>
+                <default>false</default>
+                <label>Export Investigation Status Inquiry</label>
+            </value>
+            <value>
+                <fullName>Open an Investigation</fullName>
+                <default>false</default>
+                <label>Open an Investigation</label>
+            </value>
+            <value>
+                <fullName>Open an Investigation without Tracking#</fullName>
+                <default>false</default>
+                <label>Open an Investigation without Tracking#</label>
+            </value>
+            <value>
+                <fullName>Written POD required and no signature available in IVP</fullName>
+                <default>false</default>
+                <label>Written POD required and no signature available in IVP</label>
+            </value>
+            <value>
+                <fullName>Re-open an Investi.</fullName>
+                <default>false</default>
+                <label>Re-open an Investi.</label>
+            </value>
+            <value>
+                <fullName>No Information Found</fullName>
+                <default>false</default>
+                <label>No Information Found</label>
+            </value>
+            <value>
+                <fullName>Billing Info Activity Only</fullName>
+                <default>false</default>
+                <label>Billing Info Activity Only</label>
+            </value>
+            <value>
+                <fullName>Lost in Transit</fullName>
+                <default>false</default>
+                <label>Lost in Transit</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

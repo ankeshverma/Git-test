@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delivery_Attempt_Issue__c</fullName>
+    <externalId>false</externalId>
+    <label>Delivery Attempt Issue</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Other Exception</fullName>
+                <default>false</default>
+                <label>Other Exception</label>
+            </value>
+            <value>
+                <fullName>Shipper Release Package Not Left</fullName>
+                <default>false</default>
+                <label>Shipper Release Package Not Left</label>
+            </value>
+            <value>
+                <fullName>Valid InfoNotice/No info in eTT-IVP</fullName>
+                <default>false</default>
+                <label>Valid InfoNotice/No info in eTT-IVP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

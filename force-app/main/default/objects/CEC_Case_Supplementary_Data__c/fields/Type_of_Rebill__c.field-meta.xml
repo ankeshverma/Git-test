@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Rebill__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of Rebill</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Outside Canada</fullName>
+                <default>false</default>
+                <label>Outside Canada</label>
+            </value>
+            <value>
+                <fullName>Within Canada</fullName>
+                <default>false</default>
+                <label>Within Canada</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

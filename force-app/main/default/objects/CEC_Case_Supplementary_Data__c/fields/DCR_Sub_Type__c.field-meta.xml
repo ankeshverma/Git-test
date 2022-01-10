@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DCR_Sub_Type__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>DCR SUB TYPE</inlineHelpText>
+    <label>DCR Sub Type</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>DCR_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hot</fullName>
+                <default>false</default>
+                <label>Hot</label>
+            </value>
+            <value>
+                <fullName>Cold</fullName>
+                <default>false</default>
+                <label>Cold</label>
+            </value>
+            <value>
+                <fullName>Warm</fullName>
+                <default>false</default>
+                <label>Warm</label>
+            </value>
+            <value>
+                <fullName>Very Warm</fullName>
+                <default>false</default>
+                <label>Very Warm</label>
+            </value>
+            <value>
+                <fullName>Very Cold</fullName>
+                <default>false</default>
+                <label>Very Cold</label>
+            </value>
+            <value>
+                <fullName>Very Hot</fullName>
+                <default>false</default>
+                <label>Very Hot</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Redeliver to my address</controllingFieldValue>
+            <valueName>Hot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Redeliver to my address</controllingFieldValue>
+            <valueName>Cold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternate Address</controllingFieldValue>
+            <valueName>Warm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alternate Address</controllingFieldValue>
+            <valueName>Very Warm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Return To Shipper</controllingFieldValue>
+            <valueName>Very Cold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Return To Shipper</controllingFieldValue>
+            <valueName>Very Hot</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

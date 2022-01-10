@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Level_Asia__c</fullName>
+    <externalId>false</externalId>
+    <label>Service Level (Asia)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Express Plus</fullName>
+                <default>false</default>
+                <label>Express Plus</label>
+            </value>
+            <value>
+                <fullName>Express</fullName>
+                <default>false</default>
+                <label>Express</label>
+            </value>
+            <value>
+                <fullName>Express Saver</fullName>
+                <default>false</default>
+                <label>Express Saver</label>
+            </value>
+            <value>
+                <fullName>Expedited</fullName>
+                <default>false</default>
+                <label>Expedited</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

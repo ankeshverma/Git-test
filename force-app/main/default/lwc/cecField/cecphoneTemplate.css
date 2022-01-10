@@ -1,0 +1,9 @@
+:host{
+    width:100%;
+    display:block;
+    --lwc-varSpacingVerticalSmall: 0;/*Quick fix needs to be properly done*/
+}
+
+.slds-form-element_readonly{
+    border-bottom:0
+}

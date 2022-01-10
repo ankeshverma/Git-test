@@ -1,0 +1,13 @@
+.help-text-alignment {
+    margin-top: -0.25rem;
+    position: absolute;
+    padding-left: 0.25rem;
+}
+.right-center{
+    display: flex;
+    align-items: center;
+    padding-right: var(--lwc-spacingXSmall,0.5rem);
+    padding-top: var(--lwc-spacingXxSmall,0.25rem);
+    margin-bottom: var(--lwc-spacingXxxSmall,0.125rem)
+
+}

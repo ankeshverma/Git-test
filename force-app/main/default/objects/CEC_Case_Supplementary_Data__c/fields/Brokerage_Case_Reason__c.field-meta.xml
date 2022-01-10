@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brokerage_Case_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Brokerage Case Reason</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Brokerage Line Busy</fullName>
+                <default>false</default>
+                <label>Brokerage Line Busy</label>
+            </value>
+            <value>
+                <fullName>Brokerage Line Off</fullName>
+                <default>false</default>
+                <label>Brokerage Line Off</label>
+            </value>
+            <value>
+                <fullName>Customer Rejects to Transfer Call</fullName>
+                <default>false</default>
+                <label>Customer Rejects to Transfer Call</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

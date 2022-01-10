@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Refund_Rerate_Scenario__c</fullName>
+    <externalId>false</externalId>
+    <label>Refund/Rerate Scenario</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Rerate - LVS before Lockout</fullName>
+                <default>false</default>
+                <label>Rerate - LVS before Lockout</label>
+            </value>
+            <value>
+                <fullName>Refund - B2G Process</fullName>
+                <default>false</default>
+                <label>Refund - B2G Process</label>
+            </value>
+            <value>
+                <fullName>Refund - B3 Process</fullName>
+                <default>false</default>
+                <label>Refund - B3 Process</label>
+            </value>
+            <value>
+                <fullName>Incorrect or no shipment ID left in Status Call Message</fullName>
+                <default>false</default>
+                <label>Incorrect or no shipment ID left in Status Call Message</label>
+            </value>
+            <value>
+                <fullName>Proof of Payment for LVS past lockout</fullName>
+                <default>false</default>
+                <label>Proof of Payment for LVS past lockout</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

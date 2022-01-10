@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contractual_Service_Request__c</fullName>
+    <externalId>false</externalId>
+    <label>Contractual Service Request</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Authorized Return Service</fullName>
+                <default>false</default>
+                <label>Authorized Return Service</label>
+            </value>
+            <value>
+                <fullName>Returns on the Web</fullName>
+                <default>false</default>
+                <label>Returns on the Web</label>
+            </value>
+            <value>
+                <fullName>UPS Returns Flexible Access</fullName>
+                <default>false</default>
+                <label>UPS Returns Flexible Access</label>
+            </value>
+            <value>
+                <fullName>Hundredweight</fullName>
+                <default>false</default>
+                <label>Hundredweight</label>
+            </value>
+            <value>
+                <fullName>SurePost</fullName>
+                <default>false</default>
+                <label>SurePost</label>
+            </value>
+            <value>
+                <fullName>WorldEase (Intl Only)</fullName>
+                <default>false</default>
+                <label>WorldEase (Intl Only)</label>
+            </value>
+            <value>
+                <fullName>Third Country International Returns (Intl Only)</fullName>
+                <default>false</default>
+                <label>Third Country International Returns (Intl Only)</label>
+            </value>
+            <value>
+                <fullName>U.S. to Mexico - Standard Service (Intl Only)</fullName>
+                <default>false</default>
+                <label>U.S. to Mexico - Standard Service (Intl Only)</label>
+            </value>
+            <value>
+                <fullName>COD Automatic</fullName>
+                <default>false</default>
+                <label>COD Automatic</label>
+            </value>
+            <value>
+                <fullName>COD Direct</fullName>
+                <default>false</default>
+                <label>COD Direct</label>
+            </value>
+            <value>
+                <fullName>COD Secure</fullName>
+                <default>false</default>
+                <label>COD Secure</label>
+            </value>
+            <value>
+                <fullName>Returns Exchange</fullName>
+                <default>false</default>
+                <label>Returns Exchange</label>
+            </value>
+            <value>
+                <fullName>Consolidated Payment Plan</fullName>
+                <default>false</default>
+                <label>Consolidated Payment Plan</label>
+            </value>
+            <value>
+                <fullName>Ground Freight Pricing</fullName>
+                <default>false</default>
+                <label>Ground Freight Pricing</label>
+            </value>
+            <value>
+                <fullName>Electronic Data Interchange (EDI)</fullName>
+                <default>false</default>
+                <label>Electronic Data Interchange (EDI)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DCO_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>DCO Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Deliver my package to another address</fullName>
+                <default>false</default>
+                <label>Deliver my package to another address</label>
+            </value>
+            <value>
+                <fullName>Deliver my package on another day</fullName>
+                <default>false</default>
+                <label>Deliver my package on another day</label>
+            </value>
+            <value>
+                <fullName>Pickup my package at a UPS Location (Access Point)</fullName>
+                <default>false</default>
+                <label>Pickup my package at a UPS Location (Access Point)</label>
+            </value>
+            <value>
+                <fullName>Authorize Shipment Release</fullName>
+                <default>false</default>
+                <label>Authorize Shipment Release</label>
+            </value>
+            <value>
+                <fullName>Leave with neighbor</fullName>
+                <default>false</default>
+                <label>Leave with neighbor</label>
+            </value>
+            <value>
+                <fullName>Return to Shipper</fullName>
+                <default>false</default>
+                <label>Return to Shipper</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,37 @@
+<template>
+  <div class={messageClass}>
+    <section
+      role="alertdialog"
+      tabindex="0"
+      aria-labelledby="prompt-heading-id"
+      aria-describedby="prompt-message-wrapper"
+      class={modalClass}
+      aria-modal="true"
+    >
+      <div class={modalContainerClass}>
+        <div
+          class={modalContentClass}
+          id="prompt-message-wrapper"
+        >
+          <lightning-icon
+            icon-name={iconName}
+            title={iconTitle}
+            size={iconSize}
+            class={iconClass}
+            variant={iconVariant}
+          >
+          </lightning-icon>
+          {label}
+        </div>
+        <template if:true={isModal}>
+            <footer class="slds-modal__footer slds-theme_default">
+                <slot name="actions">
+                    
+                </slot>
+            </footer>
+        </template>
+      </div>
+    </section>
+    <div class={modalBackDropClass}></div>
+  </div>
+</template>

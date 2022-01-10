@@ -1,0 +1,80 @@
+:host{
+    width:100%;
+    display:block;
+    position:relative
+}
+.controlledby{
+    padding-top: 0.5rem;
+    padding-bottom: 0;
+}
+.slds-form-element_readonly{
+    border-bottom:0
+}
+.overflow{
+    height: 10rem;
+    overflow: auto;
+    border: var(--lwc-borderWidthThin,1px) solid var(--lwc-colorBorder,rgb(217, 219, 221));
+    border-radius: var(--lwc-borderRadiusMedium,0.25rem);
+}
+
+.fullwidth{
+    width:100%
+}
+
+.right-center{
+    display: flex;
+    align-items: center;
+    padding-right: var(--lwc-spacingXSmall,0.5rem);
+    padding-top: var(--lwc-spacingXxSmall,0.25rem);
+    margin-bottom: var(--lwc-spacingXxxSmall,0.125rem)
+
+}
+
+lightning-rich-text-toolbar-button-group lightning-button{
+    --lwc-squareIconMediumContentAlt: 1.25rem;
+    --sds-c-button-brand-spacing-inline-start: 0.5rem;
+    --sds-c-button-brand-spacing-inline-end: 0.5rem;
+}
+
+/** REPLICATING SLDS BRAND BUTTON**/
+lightning-rich-text-toolbar-button{
+    transition: all 300ms;
+    border-width: 1px !important;
+    width: 100%;
+    height: 2rem;
+    cursor: pointer;
+    --lwc-colorTextIconDefault: var(--sds-c-button-brand-text-color,rgb(255, 255, 255));
+    --lwc-squareIconMediumContentAlt: 1.25rem;
+    --lwc-squareIconMediumBoundary: 1.9rem;
+    --lwc-borderWidthThin: 0;
+    --lwc-buttonColorBorderPrimary: var(--sds-c-button-brand-color-background, var(--lwc-brandAccessible,rgb(0, 112, 210)));
+    --lwc-buttonColorBackgroundPrimary: var(--sds-c-button-brand-color-background, var(--lwc-brandAccessible,rgb(0, 112, 210)));
+    --sds-c-button-text-color-hover: var(--sds-c-button-brand-text-color,rgb(255, 255, 255));
+    
+    
+}
+lightning-rich-text-toolbar-button:focus,lightning-rich-text-toolbar-button:hover{
+    box-shadow: var(--lwc-shadowButtonFocus,0 0 3px #0070D2);
+    --sds-c-button-shadow-focus:none;    
+    --lwc-buttonColorBorderPrimary:var(--sds-c-button-brand-color-border-hover, var(--lwc-brandAccessibleActive,rgb(0, 95, 178)));
+    --lwc-buttonColorBackgroundPrimary: var(--sds-c-button-brand-color-background-hover, var(--lwc-brandAccessibleActive,rgb(0, 95, 178)));
+}
+lightning-input-rich-text{
+    /*Have to keep it initialized or it fails*/
+    --cec-field-controlled-by-label:"Insert Case Description"
+}
+lightning-rich-text-toolbar-button:before{
+    content: ""var(--cec-field-controlled-by-label,"Insert Case Description");
+    margin-right: 0.25rem;
+    margin-left: 0.5rem;
+    font-weight: bold;
+}
+lightning-rich-text-toolbar-button:hover {
+    -transform: scale(1.05);
+    transform-origin: center;
+}
+
+c-cec-message{
+    --c-cec-message-modal-z-index:10;
+    --c-cec-message-backdrop-z-index:9;
+}

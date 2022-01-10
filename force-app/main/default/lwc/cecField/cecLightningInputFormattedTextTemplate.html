@@ -1,0 +1,101 @@
+<template>
+    <template if:false={field.readonly}>
+        <c-cec-message
+        type="modal"
+        class="message slds-hide"
+        variant="info"
+        icon-name="utility:info"
+        label={addressNewOptionalLabel.CEC_UI_Data_LOSS_WARNING}
+    >
+        <lightning-button
+        slot="actions"
+        variant="neutral"
+        label={addressNewOptionalLabel.CEC_Button_Cancel}
+        title={addressNewOptionalLabel.CEC_Button_Cancel}
+        onclick={hadlePromptCancel}
+        class="slds-col_bump-right slds-m-right_small"
+        >
+        </lightning-button>
+        <lightning-button
+        slot="actions"
+        variant="brand"
+        label={addressNewOptionalLabel.CEC_Button_ok}
+        title={addressNewOptionalLabel.CEC_Button_ok}
+        onclick={hadlePromptOk}
+        >
+        </lightning-button>
+    </c-cec-message>
+        <div class="slds-container_fluid">
+            <!-- <div
+                class="slds-grid_align-spread slds-grid slds-form-element slds-form-element_stacked slds-is-editing controlledby">
+                <span class="slds-form-element__label">
+                    {field.controlledBy.label}
+                </span>
+                <lightning-input 
+                        class="slds-is-editing "
+                        checked={field.controlledBy.attribute.checked}
+                        data-action={field.controlledBy.action}
+                        disabled={field.controlledBy.disabled} type="toggle"
+                        variant="label-hidden" label={field.controlledBy.label}
+                        name="input1" onchange={handleControlledBy}
+                        message-toggle-active="" message-toggle-inactive=""
+                        >
+                </lightning-input>
+            </div> -->
+                <lightning-input-rich-text
+                onblur={reportValidatityForLightningFormated}
+                data-input
+                valid={isLightningFormatedTextValid}
+                message-when-bad-input={lightningFormatedTextErrorMessage}
+                required={field.required}
+                disabled={field.disabled}
+                label-visible 
+                label={field.label} 
+                formats="font, bold, italic, underline, strike,
+                list, indent, align, link, image, clean, code, code-block, color, background, header"
+                value={field.value}
+                >
+                    <lightning-rich-text-toolbar-button-group slot="toolbar" aria-label="First group">
+                        <!-- <lightning-rich-text-toolbar-button
+                            class={controlledByClass}
+                            icon-name="utility:paste"
+                            icon-alternative-text={field.controlledBy.label}
+                            onclick={handleControlledBy}>
+                        </lightning-rich-text-toolbar-button> -->
+                        <template if:true={formattedlbl}>  
+                        <lightning-button 
+                            icon-position="right" 
+                            variant="brand" 
+                            label={field.controlledBy.label}
+                            title={field.controlledBy.label}
+                            icon-name="utility:paste" 
+                            class="slds-m-left_x-small"
+                            onclick={handleControlledBy}>
+                        </lightning-button>
+                        </template>
+                       
+                        
+
+                    </lightning-rich-text-toolbar-button-group>
+                </lightning-input-rich-text>
+            </div>
+
+    </template>
+    <template if:true={field.readonly}>
+        <slot name="output">
+            <div
+                class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-form-element_stacked slds-hint-parent slds-is-editing">
+                <span class="slds-form-element__label">{field.label}</span>
+                <div class="slds-form-element__control overflow">
+                    <div class="slds-form-element__static slds-p-around_small fullwidth">
+
+                        <lightning-formatted-rich-text class="slds-container_fluid" value={field.value}>
+                        </lightning-formatted-rich-text >
+                    </div>
+                    <!--lightning-button-icon icon-name="utility:edit" alternative-text={field.label}
+                        class="slds-m-left_xx-small" title={field.label}></lightning-button-icon-->
+                </div>
+            </div>
+        </slot>
+    </template>
+</template>

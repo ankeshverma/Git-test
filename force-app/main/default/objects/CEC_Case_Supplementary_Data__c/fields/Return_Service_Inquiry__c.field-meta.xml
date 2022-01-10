@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Return_Service_Inquiry__c</fullName>
+    <externalId>false</externalId>
+    <label>Return Service Inquiry</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No pickup attempt for RS1, RS3, IC1, IC3</fullName>
+                <default>false</default>
+                <label>No pickup attempt for RS1, RS3, IC1, IC3</label>
+            </value>
+            <value>
+                <fullName>No label left for RS1 or IC1</fullName>
+                <default>false</default>
+                <label>No label left for RS1 or IC1</label>
+            </value>
+            <value>
+                <fullName>Non-consecutive RS3 or IC3 pickup attempts</fullName>
+                <default>false</default>
+                <label>Non-consecutive RS3 or IC3 pickup attempts</label>
+            </value>
+            <value>
+                <fullName>Incorrect handling of Return Service or Import Control shipments</fullName>
+                <default>false</default>
+                <label>Incorrect handling of Return Service or Import Control shipments</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

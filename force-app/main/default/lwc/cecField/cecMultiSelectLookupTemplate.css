@@ -1,0 +1,12 @@
+:host{
+    width:100%;
+    display:block;
+}
+
+.slds-form-element_readonly{
+    border-bottom:0
+}
+
+lightning-formatted-text{
+    font-weight: var(--cec-fieldValueReadOnlyFontWeight,400);
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KR_Supply_Order__c</fullName>
+    <externalId>false</externalId>
+    <label>KR Supply Order</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>UPS Envelope - QTY (Free Text)</fullName>
+                <default>false</default>
+                <label>UPS Envelope - QTY (Free Text)</label>
+            </value>
+            <value>
+                <fullName>UPS PAK</fullName>
+                <default>false</default>
+                <label>UPS PAK</label>
+            </value>
+            <value>
+                <fullName>BOX 1.  31 X 22 X 6</fullName>
+                <default>false</default>
+                <label>BOX 1.  31 X 22 X 6</label>
+            </value>
+            <value>
+                <fullName>Others (if selected add to Summary/Details)</fullName>
+                <default>false</default>
+                <label>Others (if selected add to Summary/Details)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,59 @@
+:host{    
+    display: flex;
+    flex-direction: column;
+}
+
+:host > *{
+    flex-grow: 1;
+    overflow: auto;
+}
+.cec-custom{
+    background:var(--cec-custom-background,#fafaf9);
+    color:var(--cec-custom-color,#c67d30);
+    width: var(--cec-custom-width,100%);
+    padding: var(--cec-custom-padding,0);
+    --sds-c-icon-color-foreground-default:var(--cec-custom-icon-color-foreground, #FFD929);
+}
+.cec-info{
+    background: #fafaf9;
+    color: #c67d30;
+    width: 100%;
+    padding: 0;
+}
+.cec-error{
+    background: #fafaf9;
+    width: 100%;
+    padding: 0;
+}
+
+
+.cec-info lightning-icon{
+    --sds-c-icon-color-foreground-default: #FFD929;
+}
+
+.cec-error lightning-icon{
+    --sds-c-icon-color-foreground-default:var(--lwc-colorTextError,rgb(194, 57, 52));
+}
+
+.slds-modal_prompt .slds-modal__content, .slds-modal--prompt .slds-modal__content{
+    text-align: center;
+    padding: 2rem;
+	padding-bottom: 1rem;
+    border-top-right-radius: var(--sds-c-modal-radius-border, var(--lwc-borderRadiusMedium,0.25rem));
+    border-top-left-radius: var(--sds-c-modal-radius-border, var(--lwc-borderRadiusMedium,0.25rem));
+}
+.slds-modal__container {
+    width:100%;
+    padding: 2rem;
+}
+
+section[role="alertdialog"]:focus {
+    outline: 0;
+}
+
+.slds-modal{
+    z-index: var(--c-cec-message-modal-z-index,2);
+}
+.slds-backdrop{
+    z-index: var(--c-cec-message-backdrop-z-index,1);
+}

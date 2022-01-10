@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restriction_Request__c</fullName>
+    <externalId>false</externalId>
+    <label>Restriction Request</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Restrict DCR Options</fullName>
+                <default>false</default>
+                <label>Restrict DCR Options</label>
+            </value>
+            <value>
+                <fullName>Restrict DCO Options</fullName>
+                <default>false</default>
+                <label>Restrict DCO Options</label>
+            </value>
+            <value>
+                <fullName>Restrict UDI Options</fullName>
+                <default>false</default>
+                <label>Restrict UDI Options</label>
+            </value>
+            <value>
+                <fullName>Unrestrict DCR Options</fullName>
+                <default>false</default>
+                <label>Unrestrict DCR Options</label>
+            </value>
+            <value>
+                <fullName>Unrestrict DCO Options</fullName>
+                <default>false</default>
+                <label>Unrestrict DCO Options</label>
+            </value>
+            <value>
+                <fullName>Unrestrict UDI Options</fullName>
+                <default>false</default>
+                <label>Unrestrict UDI Options</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

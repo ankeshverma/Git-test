@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Request_for_Sales_Person__c</fullName>
+    <externalId>false</externalId>
+    <label>Request for Sales Person</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Account Resume/Reactivations/Other Credit</fullName>
+                <default>false</default>
+                <label>Account Resume/Reactivations/Other Credit</label>
+            </value>
+            <value>
+                <fullName>Estimated Number of Packages Per Month</fullName>
+                <default>false</default>
+                <label>Estimated Number of Packages Per Month</label>
+            </value>
+            <value>
+                <fullName>Commodities Shipped</fullName>
+                <default>false</default>
+                <label>Commodities Shipped</label>
+            </value>
+            <value>
+                <fullName>Automated Solutions</fullName>
+                <default>false</default>
+                <label>Automated Solutions</label>
+            </value>
+            <value>
+                <fullName>Change or cancel appointment</fullName>
+                <default>false</default>
+                <label>Change or cancel appointment</label>
+            </value>
+            <value>
+                <fullName>Additional details EU VAT Rule Changes</fullName>
+                <default>false</default>
+                <label>Additional details EU VAT Rule Changes</label>
+            </value>
+            <value>
+                <fullName>Speak with Sales Resource for sales related issue</fullName>
+                <default>false</default>
+                <label>Speak with Sales Resource for sales related issue</label>
+            </value>
+            <value>
+                <fullName>Expired incentives (renewal)</fullName>
+                <default>false</default>
+                <label>Expired incentives (renewal)</label>
+            </value>
+            <value>
+                <fullName>Contract copy request (Small Package only)</fullName>
+                <default>false</default>
+                <label>Contract copy request (Small Package only)</label>
+            </value>
+            <value>
+                <fullName>ARS request</fullName>
+                <default>false</default>
+                <label>ARS request</label>
+            </value>
+            <value>
+                <fullName>CampusShip request</fullName>
+                <default>false</default>
+                <label>CampusShip request</label>
+            </value>
+            <value>
+                <fullName>Consolidated Payment Plan - Cancel</fullName>
+                <default>false</default>
+                <label>Consolidated Payment Plan - Cancel</label>
+            </value>
+            <value>
+                <fullName>Consolidated Payment Plan - Set Up</fullName>
+                <default>false</default>
+                <label>Consolidated Payment Plan - Set Up</label>
+            </value>
+            <value>
+                <fullName>Credit Card Payment Plan Inquiry (not eligible)</fullName>
+                <default>false</default>
+                <label>Credit Card Payment Plan Inquiry (not eligible)</label>
+            </value>
+            <value>
+                <fullName>Thermal / Eltron Printer request or return</fullName>
+                <default>false</default>
+                <label>Thermal / Eltron Printer request or return</label>
+            </value>
+            <value>
+                <fullName>Third Country Returns / Import Control</fullName>
+                <default>false</default>
+                <label>Third Country Returns / Import Control</label>
+            </value>
+            <value>
+                <fullName>WorldEase Request</fullName>
+                <default>false</default>
+                <label>WorldEase Request</label>
+            </value>
+            <value>
+                <fullName>UPS Packaging Laboratory request</fullName>
+                <default>false</default>
+                <label>UPS Packaging Laboratory request</label>
+            </value>
+            <value>
+                <fullName>Quantum View Manage, Data, or for Importers request</fullName>
+                <default>false</default>
+                <label>Quantum View Manage, Data, or for Importers request</label>
+            </value>
+            <value>
+                <fullName>CampusShip administrator request : enable account-based rates</fullName>
+                <default>false</default>
+                <label>CampusShip administrator request : enable account-based rates</label>
+            </value>
+            <value>
+                <fullName>View SOP/RCC on Brokerage and Compliance website</fullName>
+                <default>false</default>
+                <label>View SOP/RCC on Brokerage and Compliance website</label>
+            </value>
+            <value>
+                <fullName>NRI Open Account</fullName>
+                <default>false</default>
+                <label>NRI Open Account</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

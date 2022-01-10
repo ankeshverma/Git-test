@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payment_Method_Used__c</fullName>
+    <externalId>false</externalId>
+    <label>Payment Method Used</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cash</fullName>
+                <default>false</default>
+                <label>Cash</label>
+            </value>
+            <value>
+                <fullName>Account</fullName>
+                <default>false</default>
+                <label>Account</label>
+            </value>
+            <value>
+                <fullName>Payment or Credit Card</fullName>
+                <default>false</default>
+                <label>Payment or Credit Card</label>
+            </value>
+            <value>
+                <fullName>Online Payment</fullName>
+                <default>false</default>
+                <label>Online Payment</label>
+            </value>
+            <value>
+                <fullName>Cheque</fullName>
+                <default>false</default>
+                <label>Cheque</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

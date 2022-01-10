@@ -1,0 +1,31 @@
+<template>
+    <template if:true={field.isForm}>
+        <lightning-record-edit-form key={field.key} record-id={field.id}
+            object-api-name={field.objectApiName} class="slds-container_fluid">
+
+            <!--Lookup or masterdetatil field record fields-->
+            <lightning-layout multiple-rows>
+                <template for:each={field.fields} for:item="fieldField" for:index="index">
+                    <lightning-layout-item key={fieldField.key} size={fieldField.size}
+                    class={fieldField.layoutClass}>
+
+                        <c-cec-field label={label} field={fieldField}
+                            form-data={arContactRecord} onchange={handleChange}
+                            oncontrolchange={handleControlledBy}>
+                            <!-- <div class="slds-form-element__label">{fieldField.label} 
+                            <lightning-helptext class="help-text-alignment" content={fieldField.helpText}></lightning-helptext>  -->
+                            <lightning-input-field class="slds-is-editing cl" data-object-api-name={field.objectApiName}
+                                field-name={fieldField.Name} readonly={fieldField.readonly}
+                                value={fieldField.value} required={fieldField.required}  variant={fieldField.variant}>
+                            </lightning-input-field>
+                            <!-- </div> -->
+                        </c-cec-field>
+
+                    </lightning-layout-item>
+                </template>
+            </lightning-layout>
+
+
+        </lightning-record-edit-form>
+    </template>
+</template>

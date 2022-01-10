@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Account_Fraud__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of Account Fraud</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fraudulent use of account</fullName>
+                <default>false</default>
+                <label>Fraudulent use of account</label>
+            </value>
+            <value>
+                <fullName>Customer&apos;s personal information used fraudulently</fullName>
+                <default>false</default>
+                <label>Customer&apos;s personal information used fraudulently</label>
+            </value>
+            <value>
+                <fullName>Applicable systems reflect that the name and addres on the Brokerage invoice do not match the delivery address</fullName>
+                <default>false</default>
+                <label>Applicable systems reflect that the name and addres on the Brokerage invoice do not match the delivery address</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

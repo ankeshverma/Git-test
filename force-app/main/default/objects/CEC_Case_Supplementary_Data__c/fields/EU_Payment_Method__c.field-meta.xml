@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EU_Payment_Method__c</fullName>
+    <externalId>false</externalId>
+    <label>EU Payment Method</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Credit card</fullName>
+                <default>false</default>
+                <label>Credit card</label>
+            </value>
+            <value>
+                <fullName>PayPal</fullName>
+                <default>false</default>
+                <label>PayPal</label>
+            </value>
+            <value>
+                <fullName>Dotpay</fullName>
+                <default>false</default>
+                <label>Dotpay</label>
+            </value>
+            <value>
+                <fullName>Giropay</fullName>
+                <default>false</default>
+                <label>Giropay</label>
+            </value>
+            <value>
+                <fullName>IDEAL</fullName>
+                <default>false</default>
+                <label>IDEAL</label>
+            </value>
+            <value>
+                <fullName>SOFORT</fullName>
+                <default>false</default>
+                <label>SOFORT</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

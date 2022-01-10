@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CEC_Country_Mapping__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>CEC Country Mapping</label>
+    <referenceTo>CEC_Country_Mapping__mdt</referenceTo>
+    <relationshipLabel>CEC Country Context Mappings</relationshipLabel>
+    <relationshipName>CEC_Country_Context_Mappings</relationshipName>
+    <required>false</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

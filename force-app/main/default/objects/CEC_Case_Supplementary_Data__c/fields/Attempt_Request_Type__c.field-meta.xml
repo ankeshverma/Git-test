@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attempt_Request_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Attempt Request Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Call Prior to Delivery</fullName>
+                <default>false</default>
+                <label>Call Prior to Delivery</label>
+            </value>
+            <value>
+                <fullName>Door Code</fullName>
+                <default>false</default>
+                <label>Door Code</label>
+            </value>
+            <value>
+                <fullName>Request Estimated Delivery Time</fullName>
+                <default>false</default>
+                <label>Request Estimated Delivery Time</label>
+            </value>
+            <value>
+                <fullName>Alternative Contact Phone Number</fullName>
+                <default>false</default>
+                <label>Alternative Contact Phone Number</label>
+            </value>
+            <value>
+                <fullName>Delivery to Front Door</fullName>
+                <default>false</default>
+                <label>Delivery to Front Door</label>
+            </value>
+            <value>
+                <fullName>Delivery to Guard Room</fullName>
+                <default>false</default>
+                <label>Delivery to Guard Room</label>
+            </value>
+            <value>
+                <fullName>Need Agent Contact Phone #</fullName>
+                <default>false</default>
+                <label>Need Agent Contact Phone #</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

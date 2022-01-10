@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revenue_Average_less_than_200_wk__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <label>Revenue Average less than $200/wk?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

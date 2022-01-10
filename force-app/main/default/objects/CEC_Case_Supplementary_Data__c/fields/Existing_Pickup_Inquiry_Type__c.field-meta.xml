@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Existing_Pickup_Inquiry_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Existing Pickup Inquiry Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Large Pickup</fullName>
+                <default>false</default>
+                <label>Large Pickup</label>
+            </value>
+            <value>
+                <fullName>Temporary Change to Pickup Availability</fullName>
+                <default>false</default>
+                <label>Temporary Change to Pickup Availability</label>
+            </value>
+            <value>
+                <fullName>Pickup attempted at old Daily Pickup Address</fullName>
+                <default>false</default>
+                <label>Pickup attempted at old Daily Pickup Address</label>
+            </value>
+            <value>
+                <fullName>Account Holder does not Recognize Shipment Billed on their Account</fullName>
+                <default>false</default>
+                <label>Account Holder does not Recognize Shipment Billed on their Account</label>
+            </value>
+            <value>
+                <fullName>Cash Invoice Amount Higher than Paid on Pickup</fullName>
+                <default>false</default>
+                <label>Cash Invoice Amount Higher than Paid on Pickup</label>
+            </value>
+            <value>
+                <fullName>Possible missed On-call pickup</fullName>
+                <default>false</default>
+                <label>Possible missed On-call pickup</label>
+            </value>
+            <value>
+                <fullName>Possible missed Daily pickup</fullName>
+                <default>false</default>
+                <label>Possible missed Daily pickup</label>
+            </value>
+            <value>
+                <fullName>Return package to pickup location (same day only)</fullName>
+                <default>false</default>
+                <label>Return package to pickup location (same day only)</label>
+            </value>
+            <value>
+                <fullName>Existing Pickup Inquiry</fullName>
+                <default>false</default>
+                <label>Existing Pickup Inquiry</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

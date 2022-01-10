@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Claims_Status_Scenarios__c</fullName>
+    <externalId>false</externalId>
+    <label>Claims Status Scenarios</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Provide Additional Details - Open Investigation (Domestic)</fullName>
+                <default>false</default>
+                <label>Provide Additional Details - Open Investigation (Domestic)</label>
+            </value>
+            <value>
+                <fullName>Closed Negative Investigation - Not Enough Information</fullName>
+                <default>false</default>
+                <label>Closed Negative Investigation - Not Enough Information</label>
+            </value>
+            <value>
+                <fullName>Driver Release - Proof of Delivery Dispute</fullName>
+                <default>false</default>
+                <label>Driver Release - Proof of Delivery Dispute</label>
+            </value>
+            <value>
+                <fullName>Abandoned - Destroyed/Discarded - no F9</fullName>
+                <default>false</default>
+                <label>Abandoned - Destroyed/Discarded - no F9</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

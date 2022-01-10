@@ -1,0 +1,28 @@
+<template>
+    <template if:false={field.readonly}>
+            <c-ceclookup data-input
+                selection={field.value} 
+                onsearch={handleSearch}
+                onselectionchange={handleSelectionchange}
+                label={field.label}
+                placeholder="Search Queue .." 
+                required={field.required}></c-ceclookup>
+    </template>
+    <template if:true={field.readonly}>
+        <slot name="output">
+            <div
+                class="slds-form-element slds-form-element_edit slds-form-element_readonly slds-form-element_stacked slds-hint-parent slds-is-editing">
+                <span class="slds-form-element__label">{field.label}</span>
+                <div class="slds-form-element__control">
+                    <div class="slds-form-element__static">
+
+                        <lightning-formatted-text value={field.displayValue}>
+                        </lightning-formatted-text>
+                    </div>
+                    <!--lightning-button-icon icon-name="utility:edit" alternative-text={field.label}
+                        class="slds-m-left_xx-small" title={field.label}></lightning-button-icon-->
+                </div>
+            </div>
+        </slot>
+    </template>
+</template>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Attempt_Outside_Posted_Hours__c</fullName>
+    <defaultValue>false</defaultValue>
+    <externalId>false</externalId>
+    <label>Attempt Outside Posted Hours</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
