@@ -171,7 +171,7 @@ export default class CreateDynamicField extends LightningElement {
                     this.IdentierType = [...IdentierType1];
 
                 }
-                console.log('this.IdentierType', this.IdentierType);
+               
                 if (newJSON[0].fields) {
                     let incidenLoc = this.arCaseRecord.CEC_IncidentLocationCountry__c.value;
                     newJSON[0].fields = [...newJSON[0].fields, ...[{ "Name": "Country_of_Incidence__c", "required": "false", "size": 6, "defaultvalue": incidenLoc }]];
